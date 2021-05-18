@@ -1,6 +1,6 @@
 from triangle import Triangle
 from triangle_utils import get_type, get_area, get_height
-from input import ask_for_number
+from input_utils import ask_for_number
 
 if __name__ == '__main__':
     triangle = Triangle(

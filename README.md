@@ -6,7 +6,9 @@ of the platzi Datacadmy course.
 The code should:
 - [x] Compute a triangle area.
 - [x] Compute a triangle type.
-- [ ] Compute a winner of rock paper scissors function.
+- [ ] Rock paper scissors.
+- [ ] Unit converter.
+- [ ] Volumes calculator.
 
 ## Requirements
 - Python 3.x
