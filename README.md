@@ -7,7 +7,7 @@ The code should:
 - [x] Is palindrome.
 - [x] Compute a triangle area.
 - [x] Compute a triangle type.
-- [ ] Rock paper scissors.
+- [x] Rock paper scissors.
 - [ ] Unit converter.
 - [ ] Volumes calculator.
 
