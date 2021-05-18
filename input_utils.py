@@ -1,4 +1,4 @@
-def ask_for_number(message):
+def ask_for_number(message: str) -> float:
     while True:
         value = input(message)
         if value.isnumeric():
