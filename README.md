@@ -4,6 +4,7 @@ This repo was created to satisfy the challenges
 of the platzi Datacadmy course.
 
 The code should:
+- [x] Is palindrome.
 - [x] Compute a triangle area.
 - [x] Compute a triangle type.
 - [ ] Rock paper scissors.
