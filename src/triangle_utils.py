@@ -1,7 +1,14 @@
+from enum import IntEnum
 from triangle import Triangle
 
 
-def get_type(triangle: Triangle) -> str:
+class TriangleType(IntEnum):
+    Equilateral = 0
+    Isosceles = 1
+    Scalene = 2
+
+
+def get_type(triangle: Triangle) -> TriangleType:
     triangle_sides = [
         triangle.base,
         triangle.side2,
@@ -18,11 +25,11 @@ def get_type(triangle: Triangle) -> str:
 
     for value in side_mapping.keys():
         if side_mapping[value] == 3:
-            return 'equilateral'
+            return TriangleType.Equilateral
         if side_mapping[value] == 2:
-            return 'isosceles'
+            return TriangleType.Isosceles
 
-    return 'scalene'
+    return TriangleType.Scalene
 
 
 def get_area(triangle: Triangle) -> float:
