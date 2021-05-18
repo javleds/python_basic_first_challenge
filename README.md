@@ -8,8 +8,9 @@ The code should:
 - [x] Compute a triangle area.
 - [x] Compute a triangle type.
 - [x] Rock paper scissors.
-- [ ] Unit converter.
-- [ ] Volumes calculator.
+- [x] Unit converter.
+- [x] Volumes calculator.
+- [ ] Dynamic ranges.
 
 ## Requirements
 - Python 3.x
