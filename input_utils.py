@@ -1,7 +1,10 @@
+from number_utils import is_float
+
+
 def ask_for_number(message: str) -> float:
     while True:
         value = input(message)
-        if value.isnumeric():
+        if is_float(value):
             break
 
         if value.lower() == 'q':
