@@ -1,7 +1,7 @@
 from unittest import TestCase
 from nose2.tools import params
 from src.triangle import Triangle
-from src.triangle_utils import get_type, get_area
+from src.triangle_utils import get_type, get_area, get_height
 
 
 class TestTriangleUtils(TestCase):
@@ -19,3 +19,8 @@ class TestTriangleUtils(TestCase):
     def test_get_area(self, triangle, expected):
         self.assertEqual(get_area(triangle), expected)
 
+    @params(
+        (Triangle(10, 10, 10), 8.660254037844386)
+    )
+    def test_get_height(self, triangle, expected):
+        self.assertEqual(get_height(triangle), expected)
