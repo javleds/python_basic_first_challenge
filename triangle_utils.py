@@ -25,7 +25,7 @@ def get_type(triangle: Triangle) -> str:
     return 'scalene'
 
 
-def get_area(triangle) -> float:
+def get_area(triangle: Triangle) -> float:
     half_perimeter = (triangle.base + triangle.side2 + triangle.side3) / 2
     hp_base = half_perimeter - triangle.base
     hp_side2 = half_perimeter - triangle.side2
@@ -35,5 +35,5 @@ def get_area(triangle) -> float:
     return hp_result ** (1 / 2)
 
 
-def get_height(triangle) -> float:
+def get_height(triangle: Triangle) -> float:
     return (get_area(triangle) * 2) / triangle.base
