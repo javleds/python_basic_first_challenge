@@ -10,10 +10,15 @@ The code should:
 - [x] Rock paper scissors.
 - [x] Unit converter.
 - [x] Volumes calculator.
-- [ ] Dynamic ranges.
+- [x] Dynamic ranges.
 
 ## Requirements
 - Python 3.x
+
+## TODO
+- [ ] Learn how to test console input.
+- [ ] Add missing edge scenarios for `test_input_utils`.
+- [ ] Add tests for `dynamic_ranges`.
 
 ## Notes
 - The main requirement was to compute
